@@ -13,13 +13,12 @@
 
 .site-nav {
   display: flex;
-}
 
-.site-nav__item:not(:last-child) {
+  &__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.site-nav__link {
+&__link {
   position: relative;
 
   display: block;
@@ -55,3 +54,8 @@
     background-color: var(--accent-color);
   }
 }
+}
+
+
+
+
